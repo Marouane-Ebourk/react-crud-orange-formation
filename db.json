@@ -1,9 +1,28 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "id": 4,
+      "fullname": "Bob Wilson",
+      "phone": "333-555-77723",
+      "email": "bob@example.com"
+    },
+    {
+      "id": 5,
+      "fullname": "Eva Davis",
+      "phone": "555-789-1234",
+      "email": "eva@example.com"
+    },
+    {
+      "id": 6,
+      "fullname": "Michael Brown",
+      "phone": "777-888-9999",
+      "email": "michael@example.com"
+    },
+    {
+      "fullname": "Ebourk Marouane",
+      "email": "marouaneebourk@gmail.com",
+      "phone": "0612746316",
+      "id": 7
+    }
+  ]
 }

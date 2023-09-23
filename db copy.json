@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "John Doe",
+      "phone": "123-456-7890",
+      "email": "johndoe@example.com"
+    },
+    {
+      "id": 2,
+      "fullname": "Jane Smith",
+      "phone": "987-654-3210",
+      "email": "janesmith@example.com"
+    },
+    {
+      "id": 3,
+      "fullname": "Alice Johnson",
+      "phone": "555-123-4567",
+      "email": "alice@example.com"
+    },
+    {
+      "id": 4,
+      "fullname": "Bob Wilson",
+      "phone": "333-555-7777",
+      "email": "bob@example.com"
+    },
+    {
+      "id": 5,
+      "fullname": "Eva Davis",
+      "phone": "555-789-1234",
+      "email": "eva@example.com"
+    },
+    {
+      "id": 6,
+      "fullname": "Michael Brown",
+      "phone": "777-888-9999",
+      "email": "michael@example.com"
+    }
+  ]
+}
