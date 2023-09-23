@@ -10,17 +10,17 @@ export default function Navbar() {
           <span className="font-semibold text-xl tracking-tight">Users Crud</span>
         </div>
       </Link>
-      
-      <div className="w-full block flex-grow flex items-center w-auto">
+
+      <div className="w-auto flex-grow flex items-center ">
         <div className="text-sm flex-grow">
-          <Link to={"/"} className=" mt-4 inline-block mt-0 text-teal-200 hover:text-white mr-4">
+          <Link to={"/"} className="inline-block mt-0 text-teal-200 hover:text-white mr-4">
             users
           </Link>
-          <Link to={"/add"} className=" mt-4 inline-block mt-0 text-teal-200 hover:text-white mr-4">
+          <Link to={"/add"} className="inline-block mt-0 text-teal-200 hover:text-white mr-4">
             add
           </Link>
         </div>
-        
+
       </div>
     </nav>
   )
