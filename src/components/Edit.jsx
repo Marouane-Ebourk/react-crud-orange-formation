@@ -34,7 +34,7 @@ export default function Edit() {
         setUser({
           fullname: '', email: '', phone: '',
         });
-        navigate("/users");
+        navigate("/");
       })
       .catch((error) => {
         console.error(error);

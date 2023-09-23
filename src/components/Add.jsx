@@ -28,7 +28,7 @@ export default function Add() {
         setUser({
           fullname: '', email: '', phone: '',
         });
-        navigate("/users");
+        navigate("/");
       })
       .catch((error) => {
         console.error('Error adding user:', error);

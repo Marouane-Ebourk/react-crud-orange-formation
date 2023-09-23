@@ -16,8 +16,7 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="users">
+          <Route path="/">
             <Route index element={<Users />} />
             <Route path=":id" element={<User />} />
             <Route path="add" exact element={<Add />} />
